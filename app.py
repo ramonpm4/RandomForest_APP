@@ -6,7 +6,7 @@ import pandas as pd
 model = joblib.load("random_forest_model.pkl")
 
 # Title of the application:
-st.title("Cardiovascular Deseases Prediction")
+st.title("Cardiovascular Deseases Prediction App")
 st.markdown("""
  This is an app where you can find the **Propability of having Cardiovascular Disease** based on a series of features. The predictions are powered by a **Supervised Machine Learning - Random Forest Classification Model**, which was trained on a dataset of 918 examples. 
             
