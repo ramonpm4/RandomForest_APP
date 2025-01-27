@@ -31,7 +31,9 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 - ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 - HeartDisease: output class [1: heart disease, 0: Normal]
             
-### **Model Prediction** :""")
+### **Model Prediction** :
+(Click the **Predict** button below to determine whether the default example has a high or low probability of CVD. You can also change the feature values.)
+ """)
 
 # Create entries for patient characteristics:
 
@@ -142,8 +144,11 @@ if st.button("Predict"):
 
 
 
-st.markdown("""This model was developed by *Ramón Peralta Martínez*. 
-            Deployed with Streamlit - January 2025""")
+st.markdown("""
+This model was developed by *Ramón Peralta Martínez*. 
+Deployed with Streamlit - January 2025
+
+The code for the Random Forest model and deployment can be found here: https://github.com/ramonpm4/RandomForest_APP """)
 
 
 
